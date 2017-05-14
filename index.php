@@ -2,8 +2,8 @@
 
 
 class index {
-	
-	publuc function __construct(){
-		
+	public $foo;
+	publuc function __construct($foo){
+		$this->foo = $foo;
 	}
 }
